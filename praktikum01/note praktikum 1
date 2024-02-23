@@ -1,0 +1,12 @@
+diawali dengan tanda <?php
+dan di akhiri dengan  ?>
+
+menggunakan logo dollar untuk membuat variabel
+
+penggunaan variabel harus unik, jadi gabisa sama dengan variable yang lain 
+
+jangan menggunakan spasi pada variabel + jangan lupa gunakan ; untuk setiap akhiran variable
+
+tipe data : false/ true (boolean)
+
+array : variable yang bisa menampung lebih dari 1 nilai 
