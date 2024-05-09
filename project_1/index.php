@@ -10,7 +10,7 @@ require_once 'sidebar.php';
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Farida's Dashboard</h1>
+                    <h1>Dashboard Website</h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -37,7 +37,7 @@ require_once 'sidebar.php';
                             </div>
                         </div>
                         <div class="card-body">
-                            Farida Rabbani Virdynata - 0110223069
+                            Farida Rabbani Virdyanta - 0110223069
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">

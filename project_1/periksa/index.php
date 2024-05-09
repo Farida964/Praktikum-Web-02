@@ -2,6 +2,12 @@
 require_once 'header.php';
 require_once 'sidebar.php';
 ?>
+<style>
+    #button {
+        background-color: #795CAA;
+        border: solid #795CAA;
+    }
+</style>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -38,7 +44,7 @@ require_once 'sidebar.php';
                         </div>
                         <div class="card-body">
                             <h2 class="text-center">Data Periksa</h2>
-                            <a href="add.php"><button class="btn btn-primary mb-1">Tambah Data</button></a>
+                            <a href="add.php"><button class="btn btn-primary mb-1" id="button">Tambah Data</button></a>
                             <table class="table">
                                 <thead>
                                     <tr>

@@ -9,3 +9,4 @@ $dsn = "mysql:host=$host;dbname=$dbname";
 
 // Buat koneksi Database
 $dbh = new PDO($dsn, $user, $pass);
+?>

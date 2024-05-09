@@ -15,12 +15,22 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="../dist/css/adminlte.min.css">
 </head>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    #navnav{
+        background-color: #795CAA;
+        color: black;
+    }
 
+</style>
 <body class="hold-transition sidebar-mini layout-fixed">
     <!-- Site wrapper -->
     <div class="wrapper">
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light" id="navnav">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
