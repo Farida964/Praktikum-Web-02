@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\PasienController;
+use App\Http\Controllers\PegawaiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +28,13 @@ Route::get('/nilai', function () {
     return view('nilai');
 });
 
-Route::get('/pasien', function () {
-    return view('pasien');
-});
+Route::get('/admin', [AdminController::class, 'index']);
+
+Route::get('/pegawai', [PegawaiController::class, 'index']);
+
+
+Route::get('/admin/pasien', [PasienController::class, 'index']);
+
+
+
+
