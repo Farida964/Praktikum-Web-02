@@ -1,0 +1,82 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Periksa;
+use Illuminate\Http\Request;
+
+class PeriksaController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        $periksa = Periksa::get();
+        return view('periksa.index', compact('periksa'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Models\Periksa  $pasien
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Periksa $periksa)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Models\Periksa  $pasien
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(Periksa $periksa)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Periksa  $pasien
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Periksa $periksa)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\Models\Periksa  $periksa
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Periksa $periksa)
+    {
+        //
+    }
+}
