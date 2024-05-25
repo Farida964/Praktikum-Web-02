@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Unit_Kerja;
+use App\Models\UnitKerja;
 use Illuminate\Http\Request;
 
 class UnitKerjaController extends Controller
@@ -14,8 +14,8 @@ class UnitKerjaController extends Controller
      */
     public function index()
     {
-        $unit_kerja = Unit_Kerja::get();
-        return view('unit_kerja.index', compact('unit_kerja'));
+        $unitKerja = UnitKerja::get();
+        return view('unitKerja.index', compact('unitKerja'));
     }
 
     /**
@@ -42,10 +42,10 @@ class UnitKerjaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Unit_Kerja  $unit_Kerja
+     * @param  \App\Models\UnitKerja  $unitKerja
      * @return \Illuminate\Http\Response
      */
-    public function show(Unit_Kerja $unit_Kerja)
+    public function show(UnitKerja $unitKerja)
     {
         //
     }
@@ -53,10 +53,10 @@ class UnitKerjaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Unit_Kerja  $unit_Kerja
+     * @param  \App\Models\UnitKerja  $unitKerja
      * @return \Illuminate\Http\Response
      */
-    public function edit(Unit_Kerja $unit_Kerja)
+    public function edit(UnitKerja $unitKerja)
     {
         //
     }
@@ -65,10 +65,10 @@ class UnitKerjaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Unit_Kerja  $unit_Kerja
+     * @param  \App\Models\UnitKerja  $unitKerja
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Unit_Kerja $unit_Kerja)
+    public function update(Request $request, UnitKerja $unitKerja)
     {
         //
     }
@@ -76,10 +76,10 @@ class UnitKerjaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Unit_Kerja  $unit_Kerja
+     * @param  \App\Models\UnitKerja  $unitKerja
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Unit_Kerja $unit_Kerja)
+    public function destroy(UnitKerja $unitKerja)
     {
         //
     }

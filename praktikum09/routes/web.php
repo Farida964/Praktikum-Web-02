@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UnitKerjaController;
 use App\Http\Controllers\DokterController;
 use App\Http\Controllers\PeriksaController;
 use App\Http\Controllers\PasienController;
@@ -40,6 +41,8 @@ Route::get('/admin/pasien', [PasienController::class, 'index']);
 Route::get('/periksa', [PeriksaController::class, 'index']);
 
 Route::get('/dokter', [DokterController::class, 'index']);
+
+Route::get('/unitKerja', [UnitKerjaController::class, 'index']);
 
 
 
