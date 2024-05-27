@@ -20,4 +20,7 @@ class Pasien extends Model
         'email',
         'alamat',
     ];
+
+    //cara non-aktif timestamps
+    public $timestamps = false;
 }
